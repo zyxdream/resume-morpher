@@ -1,0 +1,14 @@
+
+# create a conda virtual environment & activate it
+conda create --name ragenv
+conda activate ragenv
+
+# check python3 version
+which python3
+# llama-index uses >=python3.8
+conda install python=3.8
+
+# install llamba-index (unavailable under conda)
+pip install llama-index
+pip install --upgrade openai
+

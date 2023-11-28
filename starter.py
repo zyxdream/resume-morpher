@@ -4,7 +4,13 @@
 # https://gpt-index.readthedocs.io/en/v0.7.6/getting_started/starter_example.html
 
 import os
-os.environ['OPENAI_API_KEY'] = "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"
+from openai import OpenAI
+from dotenv import load_dotenv
+
+
+load_dotenv(dotenv_path=os.path.join(os.getcwd(), ".env"))
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+print("here")
 
 from llama_index import VectorStoreIndex, SimpleDirectoryReader
 

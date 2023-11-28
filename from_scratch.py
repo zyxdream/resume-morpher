@@ -17,11 +17,11 @@ from scipy.spatial.distance import cdist
 
 from openai import OpenAI  # import openai is deprecated
 import os
+from dotenv import load_dotenv
 
-os.environ['OPENAI_API_KEY'] = "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"
-client = OpenAI(
-  api_key=os.environ['OPENAI_API_KEY'],  # this is also the default, it can be omitted
-)
+load_dotenv(dotenv_path=os.path.join(os.getcwd(), ".env"))
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+print("here")
 
 #doenloading encoder
 word_encoder = gensim.downloader.load('glove-twitter-25')

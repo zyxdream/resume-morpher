@@ -1,0 +1,70 @@
+objective
+
+Seeking a data scientist job to build smart semantic data products through machine learning and large-scale natural language processing.
+
+work experience
+
+Data Scientist, HG Data, Santa Barbara, CA,  Apr 2016 – Jul 2017
+1. Architected and implemented new data models and data processes in production to improve internal data pipelines and generate insights for external customers with an understanding of the product goals.
+
+2. Prototyped and deployed machine learning/statistical analysis models and features extraction.
+3. Collected, cleaned, aggregated, and extracted knowledge from unstructured text data by web scraping and utilizing Natural Language techniques.
+4. Worked with data engineers to build large-scale applications using threading, Spark and MapReduce。
+
+Data Scientist Intern (part-time), HG Data, Santa Barbara, CA, Oct 2015 - Mar 2016
+1. Automated classification task to expedite manual data operation procedure.
+2. Explored potential use of the data and new verticals through quantitative analysis and statistical modeling.
+
+
+Work Projects
+
+Web-Snippets (Python, Spark/Scala), HG Data
+• Significantly expedite the customer’s data collecting process by providing extracted knowledge about
+mergers & Acquisitions from 5000 hospital websites.
+• Collaborated with data engineers to crawl and parse 37 million raw sentences, utilized NLP tools e.g.
+regex, POS tagging for cleaning and filtering invalid sentences.
+• Predicted potential M&A sentences (high recall required) by building text classification models in scikit-
+learn and spark ML libraries, customized SMOTE cross-validation for handling imbalanced classes.
+
+URL Classifier (Python), HG Data
+• Ensured data quality by checking each URL through connection request, searching the webpage content
+for patterns to identify it as good or bad/junk URL.
+• Process 16.4 million URLs by using multi-threading and Hadoop streaming job on AWS EMR.
+• Gained first-hand experience of handling special cases e.g. streaming websites, redirects, regex issues, etc Company Segmentation(Python), HG Data
+• Assisted data operation team to classify companies into categories like staffing/consulting, technology/
+general based on their website content
+• Crawled and parsed company websites for text, cleaned and normalized text features, implemented text
+classification and selection via cross-validation.
+
+Mention-to-Entity (Java), HG Data
+• Solved entity recognition problem by utilizing Wikifier 2.0 from UIUC Cogcomp Group to link clean
+mentions extracted from raw text documents to Wikipedia pages.
+
+Merger & Acquisition Prediction (Python), HG Data
+• Explored the predictive power of our data in new verticals such as financial industry.
+• Collected data using Elasticsearch, created quantitative features to predict the likelihood of a M&A event
+between two companies in the future.
+
+Education
+
+University of California-Santa Barbara, Santa Barbara, CA      Oct 2014 - Mar 2016
+M.A. in Statistics      GPA: 3.87/4.00
+Iowa State University, Ames, IA    Aug 2009 - Dec 2013
+B.S. Double Major in Finance and Statistics     GPA: 3.65/4.00
+
+
+Online Courses
+
+Deep Learning (Udacity)
+
+
+Skills
+
+Proficient in Python (e.g. numpy, scipy, pandas, scikit-learn, requests, beautifulsoup, etc.)
+Hands-on experience with Java, Spark, MySQL, AWS, Hadoop, Elasticsearch"
+
+Previous Experience
+
+Department of Statistics & Applied Probability, UCSB, CA     Oct 2014 - Mar 2016
+Teaching Assistant (part-time)
+• Led students through lab sessions for courses such as Introductory Statistics and SAS Programming.

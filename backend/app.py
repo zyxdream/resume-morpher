@@ -18,14 +18,17 @@ def morph():
     data = request.json
     input1 = data.get('input1', '')
     input2 = data.get('input2', '')
-    print("hi, type of input2 is ", type(input2))
-
-    # TODO: add the openAI call here
-
-    resume_query = ResumeQueryGenerator(resume=input1, job=input2)
+    
+    # openAI call
+    # pack up job with job_id and content
+    job = {'job_id': 0, 'content': input2}
+    resume_query = ResumeQueryGenerator(resume=input1, job=job)
     result = ResumeGenerator(resume_query)
+
+    print(result)
     # print('sending back :', result)
     return jsonify({"result": result})
 
 if __name__ == '__main__':
     app.run(debug=True)
+

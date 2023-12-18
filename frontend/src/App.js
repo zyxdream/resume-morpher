@@ -37,22 +37,23 @@ function App() {
 
       <div className="section">
         <div className="field">
-          <input 
-            className="input" 
-            type="text" 
+          <textarea 
+            className="textarea" 
             placeholder="Your Resume" 
+            rows="10" // You can adjust the number of rows as needed
             value={inputValue1} 
-            onChange={(e) => setInputValue1(e.target.value)} 
-          />
+            onChange={(e) => setInputValue1(e.target.value)}
+          ></textarea>
         </div>
         <div className="field">
-          <input 
-            className="input" 
-            type="text" 
+          <textarea 
+            className="textarea" 
             placeholder="Target Job Posting" 
+            rows="10" // Adjust the number of rows as needed
             value={inputValue2} 
-            onChange={(e) => setInputValue2(e.target.value)} 
-          />
+            onChange={(e) => setInputValue2(e.target.value)}
+          ></textarea>
+
         </div>
         <div className="field">
           <button className="button is-primary" onClick={handleMorph}>Morph</button>
@@ -60,8 +61,9 @@ function App() {
       </div>
 
       <div className="section">
-        <div className="content">
-          <p>The morphed resume goes here.{result}</p>
+        <div className="content" style={{ whiteSpace: 'pre-wrap' }}>
+        <h2 class="title is-2">Here is your new resume:</h2>
+          <p>{result}</p>
         </div>
       </div>
     </div>

@@ -34,6 +34,12 @@ print("here")
 
 
 llm = OpenAI(model='gpt-3.5-turbo', temperature=0, max_tokens=256)
+from llama_index.multi_modal_llms.openai import OpenAIMultiModal
+
+openai_mm_llm = OpenAIMultiModal(
+    model="gpt-4-vision-preview", max_new_tokens=1500
+)
+print("model loaded")
 
 # Defaults to OpenAIEmbeddingModelType.TEXT_EMBED_ADA_002 and OpenAIEmbeddingMode.TEXT_SEARCH_MOD, options are
 # SIMILARITY_MODE
@@ -122,10 +128,14 @@ print(len(nodes))
 indexes = VectorStoreIndex(nodes=nodes, service_context=service_context)
 # simple query (can also be customized later)
 query_engine = indexes.as_query_engine()
-query_str = "Can you tell me about the key concepts for safety finetuning"
-query_str = "How is Llama2 different from other popular large language models? Particularly in terms of the algorithms."
-query_str = "how many training samples or data did llama-2 use in the reinforcement learning part?"
-response = query_engine.query(query_str)
+# query_str = "Can you tell me about the key concepts for safety finetuning"
+query_str1 = "How is Llama2 different from other popular large language models? Particularly in terms of the Performance with tool use."
+# query_str = "how many samples or prompts of human labeling did llama-2 use for safety evaluation?"
+query_str2 = "can you show me the content of table 15"
+response = query_engine.query(query_str1)
+print("response without llm-extracted metadata: \n")
+print(response)
+response = query_engine.query(query_str2)
 print("response without llm-extracted metadata: \n")
 print(response)
 print("*************")
@@ -165,9 +175,12 @@ storage_context = StorageContext.from_defaults(persist_dir=filepath)
 new_index = load_index_from_storage(storage_context)
 
 # simple query (can also be customized later)
-new_query_engine = new_index.as_query_engine()
-response = query_engine.query(query_str)
-print("response with llm-extracted metadata: \n")
-print(response)
+# new_query_engine = new_index.as_query_engine()
+# response = query_engine.query(query_str)
+# print("response with llm-extracted metadata: \n")
+# print(response)
 
 #
+# from llama_index.storage.storage_context import StorageContext
+#
+# StorageContext(image_store=)

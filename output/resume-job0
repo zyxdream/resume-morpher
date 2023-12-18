@@ -1,0 +1,47 @@
+ Yuxiao Zhang
+Data Scientist
+
+Objective:
+Highly skilled and motivated data scientist with experience in natural language techniques, statistical modeling and machine learning. Seeking a challenging position at a company that values innovation and encourages collaboration.
+
+Experience:
+Data Scientist                                        HG Insights, Santa Barbara, CA
+OCT 2015 - JUL 2017
+- Developed customer-driven data services and products utilizing natural language techniques and creative statistical models
+- Collaborated with software engineers to build end-to-end data pipelines at a large scale
+- Utilized SQL, Spark and AWS to gather, clean and analyze large datasets
+
+Project Experience:
+Resume Builder   OpenAI LLMs, DEC 2023
+- Created a resume builder that generates tailored resumes and cover letters using OpenAI LLMs
+- Adapted transfer learning techniques to improve paraphrasing capabilities
+- Implemented a double-head GPT-2 model within a generative adversarial network (GAN) to generate 'hyper-realistic' paraphrase sentences
+- Utilized SMOTE cross-validation for handling imbalanced classes
+
+Paraphrasing via Transfer Learning      M.S. Project, 2020
+- Incorporated a fine-tuned double-head GPT-2 model to compare results with the GAN model
+- Trained on paraphrase pairs and evaluated performance on both paraphrase and non-paraphrase pairs
+
+Web-Snippets   HG Insights, 2017
+- Conducted NLP techniques and statistical classification models on 37 million sentences from over 5k hospital websites
+- Extracted potential mergers and acquisitions information
+- Customized SMOTE cross-validation for handling imbalanced classes
+
+Skills:
+- Strong understanding of deep learning foundations and large language models
+- Proficient in deep learning frameworks such as Pytorch, transformers, and llamaIndex
+- Ability to prototype new ideas quickly
+- Effective collaboration with other engineers
+
+Technical Skills:
+- Programming languages: Python, Java, SQL
+- Tools: Spark, AWS
+
+Education:
+Master of Science in Computer Science, 2020
+University of California, Santa Barbara
+Bachelor of Science in Computer Science, 2015
+University of California, Santa Barbara
+
+Languages:
+English, Mandarin Chinese

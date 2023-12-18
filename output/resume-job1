@@ -1,0 +1,37 @@
+ Yuxiao Zhang 
+ Data Scientist 
+
+EXPERIENCE
+Data Scientist                                        HG Insights, Santa Barbara, CA
+OCT 2015 - JUL 2017
+- Developed customer-driven data services and products utilizing natural language techniques and creative statistical models. 
+- Collaborated with software engineers to build end-to-end data pipelines for large-scale data collection, model validation, and testing.
+
+PROJECTS
+Resume Builder (DEC 2023)
+- Utilized OpenAI LLMs to rewrite resumes and generate cover letters tailored to specific job postings.
+
+Paraphrasing via Transfer Learning (M.S. Project, 2020)
+- Embedded double-head GPT-2 into generative adversarial networks (GAN) and trained them on paraphrase pairs.
+- Generated hyper-realistic paraphrase sentences and compared results to a fine-tuned double-head GPT-2 on both paraphrase and non-paraphrase pairs.
+
+Web-Snippets (HG Insights, 2017)
+- Crawled and processed 37 million sentences from over 5,000 hospital websites.
+- Utilized NLP techniques and statistical classification models to extract potential mergers and acquisitions information.
+- Implemented customized SMOTE cross-validation to handle imbalanced classes.
+
+SKILLS
+- Proficient in deep learning frameworks such as Pytorch, transformers, and llamaIndex.
+- Extensive knowledge of deep learning foundations and large language models.
+- Aptitude for prototyping new ideas quickly.
+- Experienced in effectively collaborating with other engineers.
+
+LANGUAGES
+Python, Java, SQL, Spark, AWS
+
+EDUCATION
+M.S. in Data Science, University of California, Santa Barbara, 2015-2017
+- Coursework focused on machine learning and natural language processing.
+
+B.S. in Computer Science, University of California, Santa Barbara, 2011-2015
+- Specialized in data structures, algorithms, and software engineering principles.

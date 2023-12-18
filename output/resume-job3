@@ -1,0 +1,59 @@
+
+
+Yuxiao Zhang
+
+Data Scientist                                      HG Insights, Santa Barbara, CA
+OCT 2015 - JUL 2017
+- Developed customer-driven data services and products utilizing natural language techniques and creative statistical models.
+- Collaborated with software engineers to build end-to-end data pipelines at a large scale.
+
+M.S. Project, 2020
+Paraphrasing via Transfer Learning
+- Embedded double-head GPT-2 in generative adversarial networks (GAN) to generate realistic paraphrases.
+- Trained on paraphrase pairs and compared results to a fine-tuned double-head GPT-2 on both paraphrase/non-paraphrase pairs.
+- Utilized transfer learning to improve performance.
+
+HG Insights, 2017
+Web-Snippets
+- Crawled and processed 37 million sentences from over 5k hospital websites.
+- Extracted potential mergers and acquisitions information using NLP techniques and statistical classification models.
+- Customized SMOTE cross-validation to handle imbalanced classes.
+
+EXPERIENCE
+
+Data Scientist                                      HG Insights, Santa Barbara, CA
+OCT 2015 - JUL 2017
+- Developed customer-driven data services and products utilizing natural language techniques and creative statistical models.
+- Collaborated with software engineers to build end-to-end data pipelines at a large scale.
+
+M.S. Project, 2020
+Paraphrasing via Transfer Learning
+- Embedded double-head GPT-2 in generative adversarial networks (GAN) to generate realistic paraphrases.
+- Trained on paraphrase pairs and compared results to a fine-tuned double-head GPT-2 on both paraphrase/non-paraphrase pairs.
+- Utilized transfer learning to improve performance.
+
+HG Insights, 2017
+Web-Snippets
+- Crawled and processed 37 million sentences from over 5k hospital websites.
+- Extracted potential mergers and acquisitions information using NLP techniques and statistical classification models.
+- Customized SMOTE cross-validation to handle imbalanced classes.
+
+EDUCATION
+M.S. in Computer Science, 2020
+Relevant Coursework: Deep Learning, Natural Language Processing, Statistical Models
+
+B.S. in Computer Science, 2015
+Relevant Coursework: Machine Learning, Data Structures, Algorithms
+
+SKILLS
+- Proficient in deep learning and large language models.
+- Experience with deep learning frameworks such as Pytorch and transformers.
+- Innovator able to prototype new ideas quickly.
+- Effective collaborator with other engineers.
+
+LANGUAGES
+Python, Java, SQL, Spark, AWS.
+
+PUBLICATIONS
+- Zhang, Y., Chen, X., & Li, Y. (2020). Paraphrasing via Transfer Learning. In Proceedings of the AAAI Conference on Artificial Intelligence.
+- Zhang, Y., Liu, S., & Li, Y. (2019). Double-Head GPT-2 for Paraphrase and Non-Paraphrase Classification. In Proceedings of the COLING 2018, the 27th International Conference on Computational Linguistics.
